@@ -34,6 +34,6 @@
 
         Product pB = productList.stream()
         .min((product1, product2) -> product1.price > product2.price ? 1:-1).get();
-        System.out.println("\t");
-	System.out.println(pB.price);
-       System.out.println("\t");
+         System.out.println("\t");
+	 System.out.println(pB.price);
+         System.out.println("\t");
